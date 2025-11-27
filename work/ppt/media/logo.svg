@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00D4FF"/>
+      <stop offset="50%" style="stop-color:#7B2CBF"/>
+      <stop offset="100%" style="stop-color:#E63946"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Outer circle -->
+  <circle cx="100" cy="100" r="90" fill="none" stroke="url(#logoGrad)" stroke-width="4" filter="url(#glow)"/>
+  <!-- Inner abstract shapes representing slides -->
+  <rect x="50" y="60" width="50" height="35" rx="4" fill="#00D4FF" opacity="0.9" transform="rotate(-5, 75, 77)"/>
+  <rect x="70" y="75" width="50" height="35" rx="4" fill="#7B2CBF" opacity="0.9" transform="rotate(0, 95, 92)"/>
+  <rect x="90" y="90" width="50" height="35" rx="4" fill="#E63946" opacity="0.9" transform="rotate(5, 115, 107)"/>
+  <!-- Code brackets -->
+  <text x="40" y="155" font-family="monospace" font-size="40" fill="#00D4FF" filter="url(#glow)">&lt;</text>
+  <text x="145" y="155" font-family="monospace" font-size="40" fill="#00D4FF" filter="url(#glow)">/&gt;</text>
+</svg>

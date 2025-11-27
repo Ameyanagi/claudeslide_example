@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:bg>
+      <p:bgPr>
+        <a:gradFill rotWithShape="1">
+          <a:gsLst>
+            <a:gs pos="0"><a:srgbClr val="0D1B2A"/></a:gs>
+            <a:gs pos="100000"><a:srgbClr val="1B263B"/></a:gs>
+          </a:gsLst>
+          <a:lin ang="5400000" scaled="0"/>
+        </a:gradFill>
+        <a:effectLst/>
+      </p:bgPr>
+    </p:bg>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <!-- Accent bar -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="AccentBar"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="0"/>
+            <a:ext cx="91440" cy="6858000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="7B2CBF"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="5400000" scaled="0"/>
+          </a:gradFill>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p><a:endParaRPr lang="en-US"/></a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Title -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="Title"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="457200" y="274638"/>
+            <a:ext cx="11277600" cy="914400"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="b"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:r>
+              <a:rPr lang="en-US" sz="4400" b="1">
+                <a:solidFill><a:srgbClr val="7B2CBF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Key Features</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Feature 1 -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="Feature1"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="457200" y="1500000"/>
+            <a:ext cx="3600000" cy="2200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 8000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"><a:alpha val="70000"/></a:srgbClr></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t" lIns="228600" rIns="228600" tIns="228600" bIns="182880"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>&#x1F4C4;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Template Preservation</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Keep your corporate branding, slide masters, themes, and layouts intact</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Feature 2 -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="Feature2"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4296000" y="1500000"/>
+            <a:ext cx="3600000" cy="2200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 8000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"><a:alpha val="70000"/></a:srgbClr></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="7B2CBF"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t" lIns="228600" rIns="228600" tIns="228600" bIns="182880"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="7B2CBF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>&#x1F4AC;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="7B2CBF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Natural Language</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Just describe what you want: "Change the title on slide 3 to Q4 Report"</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Feature 3 -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="6" name="Feature3"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8134800" y="1500000"/>
+            <a:ext cx="3600000" cy="2200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 8000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"><a:alpha val="70000"/></a:srgbClr></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="E63946"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t" lIns="228600" rIns="228600" tIns="228600" bIns="182880"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="E63946"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>&#x1F527;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="E63946"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Granular Control</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Edit specific slides, text, shapes, or styles without affecting others</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Feature 4 -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="7" name="Feature4"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="457200" y="3900000"/>
+            <a:ext cx="3600000" cy="2200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 8000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"><a:alpha val="70000"/></a:srgbClr></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="2EC4B6"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t" lIns="228600" rIns="228600" tIns="228600" bIns="182880"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="2EC4B6"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>&#x1F4CA;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="2EC4B6"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Git Version Control</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Track changes, compare versions, and collaborate using standard Git workflows</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Feature 5 -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="8" name="Feature5"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="4296000" y="3900000"/>
+            <a:ext cx="3600000" cy="2200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 8000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"><a:alpha val="70000"/></a:srgbClr></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="4ECDC4"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t" lIns="228600" rIns="228600" tIns="228600" bIns="182880"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="4ECDC4"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>&#x1F3A8;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="4ECDC4"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>SVG Graphics</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Generate charts, diagrams, and custom graphics directly in presentations</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Feature 6 -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="9" name="Feature6"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="8134800" y="3900000"/>
+            <a:ext cx="3600000" cy="2200000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 8000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"><a:alpha val="70000"/></a:srgbClr></a:solidFill>
+          <a:ln w="25400"><a:solidFill><a:srgbClr val="FF6B6B"/></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="t" lIns="228600" rIns="228600" tIns="228600" bIns="182880"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="4000" b="1">
+                <a:solidFill><a:srgbClr val="FF6B6B"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>&#x2705;</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="FF6B6B"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Quality Assurance</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1400">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Built-in validation and preview ensure your presentation is always valid</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr>
+</p:sld>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<p:sld xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:p="http://schemas.openxmlformats.org/presentationml/2006/main">
+  <p:cSld>
+    <p:bg>
+      <p:bgPr>
+        <a:gradFill rotWithShape="1">
+          <a:gsLst>
+            <a:gs pos="0"><a:srgbClr val="0D1B2A"/></a:gs>
+            <a:gs pos="50000"><a:srgbClr val="1B263B"/></a:gs>
+            <a:gs pos="100000"><a:srgbClr val="0D1B2A"/></a:gs>
+          </a:gsLst>
+          <a:lin ang="5400000" scaled="0"/>
+        </a:gradFill>
+        <a:effectLst/>
+      </p:bgPr>
+    </p:bg>
+    <p:spTree>
+      <p:nvGrpSpPr>
+        <p:cNvPr id="1" name=""/>
+        <p:cNvGrpSpPr/>
+        <p:nvPr/>
+      </p:nvGrpSpPr>
+      <p:grpSpPr>
+        <a:xfrm>
+          <a:off x="0" y="0"/>
+          <a:ext cx="0" cy="0"/>
+          <a:chOff x="0" y="0"/>
+          <a:chExt cx="0" cy="0"/>
+        </a:xfrm>
+      </p:grpSpPr>
+      <!-- Top gradient bar -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="2" name="TopBar"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="0"/>
+            <a:ext cx="12192000" cy="91440"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+              <a:gs pos="50000"><a:srgbClr val="7B2CBF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="E63946"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="0" scaled="0"/>
+          </a:gradFill>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p><a:endParaRPr lang="en-US"/></a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Thank you text -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="3" name="ThankYou"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="609600" y="1500000"/>
+            <a:ext cx="10972800" cy="1000000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="5400" b="1">
+                <a:solidFill><a:srgbClr val="FFFFFF"/></a:solidFill>
+                <a:latin typeface="Segoe UI Light"/>
+              </a:rPr>
+              <a:t>Thank You</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Get Started Command -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="4" name="CommandBox"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="2500000" y="2700000"/>
+            <a:ext cx="7192000" cy="800000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 15000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="0D1B2A"/></a:solidFill>
+          <a:ln w="28575">
+            <a:gradFill>
+              <a:gsLst>
+                <a:gs pos="0"><a:srgbClr val="00D4FF"/></a:gs>
+                <a:gs pos="100000"><a:srgbClr val="7B2CBF"/></a:gs>
+              </a:gsLst>
+              <a:lin ang="0" scaled="0"/>
+            </a:gradFill>
+          </a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2400">
+                <a:solidFill><a:srgbClr val="2EC4B6"/></a:solidFill>
+                <a:latin typeface="Consolas"/>
+              </a:rPr>
+              <a:t>npx claudeslide init your-template.pptx</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Links section -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="5" name="LinksBox"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="2500000" y="3800000"/>
+            <a:ext cx="7192000" cy="1600000"/>
+          </a:xfrm>
+          <a:prstGeom prst="roundRect"><a:avLst><a:gd name="adj" fmla="val 8000"/></a:avLst></a:prstGeom>
+          <a:solidFill><a:srgbClr val="1B263B"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+          <a:ln w="19050"><a:solidFill><a:srgbClr val="7B2CBF"><a:alpha val="50000"/></a:srgbClr></a:solidFill></a:ln>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr" lIns="457200" rIns="457200"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="00D4FF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>npm</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>  npmjs.com/package/claudeslide</a:t>
+            </a:r>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:endParaRPr lang="en-US" sz="800"/>
+          </a:p>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000" b="1">
+                <a:solidFill><a:srgbClr val="7B2CBF"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>GitHub</a:t>
+            </a:r>
+            <a:r>
+              <a:rPr lang="en-US" sz="2000">
+                <a:solidFill><a:srgbClr val="E0E1DD"/></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>  github.com/Ameyanagi/ClaudeSlide</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Tagline -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="6" name="Tagline"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="609600" y="5700000"/>
+            <a:ext cx="10972800" cy="600000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1800" i="1">
+                <a:solidFill><a:srgbClr val="E0E1DD"><a:alpha val="70000"/></a:srgbClr></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>Leveraging Claude's XML understanding for enterprise PowerPoint editing</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- Bottom gradient bar -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="7" name="BottomBar"/>
+          <p:cNvSpPr/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="0" y="6766560"/>
+            <a:ext cx="12192000" cy="91440"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:gradFill>
+            <a:gsLst>
+              <a:gs pos="0"><a:srgbClr val="E63946"/></a:gs>
+              <a:gs pos="50000"><a:srgbClr val="7B2CBF"/></a:gs>
+              <a:gs pos="100000"><a:srgbClr val="00D4FF"/></a:gs>
+            </a:gsLst>
+            <a:lin ang="0" scaled="0"/>
+          </a:gradFill>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr/>
+          <a:lstStyle/>
+          <a:p><a:endParaRPr lang="en-US"/></a:p>
+        </p:txBody>
+      </p:sp>
+      <!-- License -->
+      <p:sp>
+        <p:nvSpPr>
+          <p:cNvPr id="8" name="License"/>
+          <p:cNvSpPr txBox="1"/>
+          <p:nvPr/>
+        </p:nvSpPr>
+        <p:spPr>
+          <a:xfrm>
+            <a:off x="609600" y="6400000"/>
+            <a:ext cx="10972800" cy="300000"/>
+          </a:xfrm>
+          <a:prstGeom prst="rect"><a:avLst/></a:prstGeom>
+          <a:noFill/>
+        </p:spPr>
+        <p:txBody>
+          <a:bodyPr anchor="ctr"/>
+          <a:lstStyle/>
+          <a:p>
+            <a:pPr algn="ctr"/>
+            <a:r>
+              <a:rPr lang="en-US" sz="1200">
+                <a:solidFill><a:srgbClr val="E0E1DD"><a:alpha val="50000"/></a:srgbClr></a:solidFill>
+                <a:latin typeface="Segoe UI"/>
+              </a:rPr>
+              <a:t>MIT License | Created by Ameyanagi</a:t>
+            </a:r>
+          </a:p>
+        </p:txBody>
+      </p:sp>
+    </p:spTree>
+  </p:cSld>
+  <p:clrMapOvr><a:masterClrMapping/></p:clrMapOvr>
+</p:sld>
