@@ -1,6 +1,7 @@
 # ClaudeSlide
 *.pptx
 !source.pptx
+!claudeslide_example.pptx
 preview/
 
 # Node
