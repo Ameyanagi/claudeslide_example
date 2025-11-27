@@ -2,7 +2,7 @@
 *.pptx
 !source.pptx
 !claudeslide_example.pptx
-preview/
+# preview/
 
 # Node
 node_modules/
